@@ -22,6 +22,7 @@ public class Inicio {
         Historiales historiales = null;
         Ejecutable ejecutable = null;
         historiales = Historia.getInstance();
+        System.out.println("Holaaaa");
 
         while (flag) {
             Menu.principal2();
